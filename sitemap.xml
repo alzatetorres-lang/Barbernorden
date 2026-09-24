@@ -1,32 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://barbernorden.com/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://barbernorden.com/services.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <loc>https://barbernorden.com/servicios</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://barbernorden.com/pricing.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <loc>https://barbernorden.com/precios</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://barbernorden.com/portfolio.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <loc>https://barbernorden.com/galeria</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://barbernorden.com/assets/images/gellary/real-cut-1.webp</image:loc>
+      <image:title>Corte degradado con reflejos rubios en Norden Barber Cuenca</image:title>
+      <image:caption>Fade limpio con acabado brillante realizado en Norden Barber Cuenca</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://barbernorden.com/assets/images/gellary/real-cut-2.webp</image:loc>
+      <image:title>Corte degradado oscuro clásico en Norden Barber Cuenca</image:title>
+      <image:caption>Transición perfecta y línea impecable realizada en Cuenca</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://barbernorden.com/assets/images/gellary/real-cut-3.webp</image:loc>
+      <image:title>Fade lateral con línea de diseño en Norden Barber Cuenca</image:title>
+      <image:caption>Precisión milimétrica en corte de caballero en Cuenca</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://barbernorden.com/assets/images/gellary/real-cut-4.webp</image:loc>
+      <image:title>Skin fade de precisión en Norden Barber Cuenca</image:title>
+      <image:caption>Acabado premium y afeitado en Norden Barber Cuenca</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://barbernorden.com/contact.html</loc>
-    <lastmod>2026-06-12</lastmod>
+    <loc>https://barbernorden.com/contacto</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

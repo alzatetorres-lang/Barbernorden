@@ -1,10 +1,17 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
-    {
-      "source": "/index.html",
-      "destination": "/",
-      "permanent": true
-    }
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/index", "destination": "/", "permanent": true },
+    { "source": "/services.html", "destination": "/servicios", "permanent": true },
+    { "source": "/services", "destination": "/servicios", "permanent": true },
+    { "source": "/pricing.html", "destination": "/precios", "permanent": true },
+    { "source": "/pricing", "destination": "/precios", "permanent": true },
+    { "source": "/portfolio.html", "destination": "/galeria", "permanent": true },
+    { "source": "/portfolio", "destination": "/galeria", "permanent": true },
+    { "source": "/contact.html", "destination": "/contacto", "permanent": true },
+    { "source": "/contact", "destination": "/contacto", "permanent": true }
   ],
   "headers": [
     {
@@ -18,7 +25,8 @@
       "headers": [
         { "key": "X-Content-Type-Options", "value": "nosniff" },
         { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(self)" }
       ]
     }
   ]

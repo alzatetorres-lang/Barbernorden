@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /google*.html
 
 Sitemap: https://barbernorden.com/sitemap.xml
